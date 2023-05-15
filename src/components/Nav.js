@@ -4,22 +4,19 @@ const Nav = () => {
   return (
     <div>
       <Menu
+        className="menu"
         theme="dark"
         mode="horizontal"
         defaultSelectedKeys={["2"]}
         items={[
           {
             key: "1",
-            label: "Home",
+            label: "Login",
           },
           {
             key: "2",
 
-            label: "nav 2",
-          },
-          {
-            key: "3",
-            label: "nav 3",
+            label: "Register",
           },
         ]}
       />

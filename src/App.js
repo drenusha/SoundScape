@@ -1,4 +1,5 @@
 import  {Layout } from "antd";
+import './assetss/style/App.css';
 import Nav from "./components/Nav";
 import Cards from "./components/Cards";
 
@@ -8,25 +9,15 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Header
-          style={{ position: "sticky", top: 0, zIndex: 1, width: "100%" }}
-        >
-          <div
-            style={{
-              float: "left",
-              width: 120,
-              height: 31,
-              margin: "16px 24px 16px 0",
-              background: "rgba(255, 255, 255, 0.2)",
-            }}
-          />
+        <Header className="header">
+          <div className="logo"/>
           <Nav />
         </Header>
-        <Content className="site-layout" style={{ padding: "50px 50px" }}>
+        <Content className="site-layout">
           <Cards />
         </Content>
         <Footer style={{ textAlign: "center" }}>
-          Ant Design ©2023 Created by Ant UED
+          ©2023 Created by Drenusha
         </Footer>
       </Layout>
     </div>
