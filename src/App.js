@@ -1,5 +1,5 @@
 import  {Layout } from "antd";
-import './assetss/style/App.css';
+import './assetss/style/Nav.css';
 import Nav from "./components/Nav";
 import Cards from "./components/Cards";
 

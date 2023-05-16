@@ -3,16 +3,10 @@
     top: 0;
     z-index: 1;
     width: 100%;
+    background-color:white;
 }
 .site-layout{
     padding: 50px 200px;
-}
-.logo{
-    float: left;
-    width: 120px;
-    height: 31px;
-    margin: 16px 24px 16px 0;
-    background: rgba(255, 255, 255, 0.2);
 }
 .menu{
     float: right;

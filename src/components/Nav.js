@@ -1,24 +1,25 @@
-import { Menu } from "antd";
+import { Menu, MenuProps } from "antd";
+import React, { useState } from "react";
+import "./../assetss/style/Nav.css";
+
+const items = [
+  {
+    label: "Login",
+    key: "login",
+  },
+  {
+    label: "Register",
+    key: "register",
+  },
+];
 
 const Nav = () => {
   return (
     <div>
       <Menu
         className="menu"
-        theme="dark"
         mode="horizontal"
-        defaultSelectedKeys={["2"]}
-        items={[
-          {
-            key: "1",
-            label: "Login",
-          },
-          {
-            key: "2",
-
-            label: "Register",
-          },
-        ]}
+        items={items}
       />
     </div>
   );
